@@ -1,0 +1,6 @@
+# 该文件由Flutter自动管理，并用于跟踪Flutter项目的属性。 此文件仅由Flutter更改，您不需要随时手动编辑内容
+version:
+  revision: f139b11009aeb8ed2a3a3aa8b0066e482709dde3
+  channel: stable
+
+project_type: app

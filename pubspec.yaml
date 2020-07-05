@@ -1,0 +1,81 @@
+# 文件是项目的配置文件
+name: my_app #应用或包名称
+description: A new Flutter project. # 应用或包的描述、简介
+version: 1.0.0+1 # 应用或包的版本号
+
+environment: # 运行环境
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies: # 应用或包依赖的其它包或插件
+  flutter:
+    sdk: flutter
+  url_launcher: ^5.4.0
+  #一款支持android和IOS的插件，其中包含打开网址、发送邮件、拨打电话、以及发送信息功能
+  cupertino_icons: ^0.1.2
+  english_words: ^3.1.0
+  http: ^0.12.0
+  flutter_swiper: ^1.0.6
+  video_player: ^0.10.11
+  chewie: ^0.9.10
+  redux: ^3.0.0
+  flutter_redux: ^0.5.2
+  web_socket_channel: ^1.1.0
+  event_bus: ^1.1.0
+  # chewie: ^0.6.1
+
+dev_dependencies: #开发环境依赖的工具包（而不是flutter应用本身依赖的包）
+  flutter_test:
+    sdk: flutter
+flutter: #flutter相关的配置选项
+  assets:
+      - assets/images/img.jpg
+      - assets/images/logo-01.jpg
+      - assets/images/icon-show.jpg
+      - assets/images/phone-icon.jpg
+      - assets/images/ipad-icon.jpg
+      - assets/images/apple-icon.jpg
+      - assets/images/mac-icon.jpg
+      - assets/images/tv-icon.jpg
+      - assets/images/wt-icon.jpg
+      - assets/images/banner.jpg
+      - assets/images/vision.jpg
+      - assets/images/close.jpg
+      - assets/images/design-logo.png
+      - assets/images/design-ct-01.png
+      - assets/images/design-ct-02.jpg
+      - assets/images/icon-xcode.jpg
+      - assets/images/xun-su.jpg
+      - assets/images/icon-testflight.jpg
+      - assets/images/icon-documentation.jpg
+      - assets/images/icon-videos.jpg
+      - assets/images/icon-load.jpg
+      - assets/video/butterfly.mp4
+      
+  uses-material-design: true #预定义组件
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+
+  #获取包、升级包
+  #flutter packages get、flutter packages upgrade
+  #要同时更新Flutter SDK和你的依赖包，在你的应用程序根目录（包含pubspec.yaml文件的目录）中运行flutter upgrade 命令:
+
+  #assets: 静态资源
+  #conf: 配置信息
+  #model: 数据模型
+  #pages: 项目中的所有页面
+  #provider: 状态管理
+  #router: 路由
+  #service: 服务
+  #utils: 常用工具
